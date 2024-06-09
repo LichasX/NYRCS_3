@@ -442,8 +442,10 @@ MonoBehaviour:
   - {fileID: 416085423657334198}
   - {fileID: -3067079793166305344}
   - {fileID: 96238339106868974}
+  - {fileID: 6606731497437760414}
   - {fileID: 5540918568988703039}
   - {fileID: -2462247065806831440}
+  - {fileID: 4143616810306309940}
   - {fileID: -4076233897134460633}
   - {fileID: 743138714935579597}
   - {fileID: -8914088987289244734}
@@ -771,11 +773,11 @@ MonoBehaviour:
   m_Name: MetaHandTrackingAim Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Meta Hand Tracking Aim
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.metahandtrackingaim
+  openxrExtensionStrings: XR_FB_hand_tracking_aim
+  company: Unity
   priority: 0
   required: 0
 --- !u!114 &4232383262518254914
@@ -1022,12 +1024,12 @@ MonoBehaviour:
   m_Name: HandTracking Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
-  priority: 0
+  nameUi: Hand Tracking Subsystem
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking
+  company: Unity
+  priority: -100
   required: 0
 --- !u!114 &7681443404519461204
 MonoBehaviour:
