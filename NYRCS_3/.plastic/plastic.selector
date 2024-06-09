@@ -1,0 +1,4 @@
+repository "NYRCS_3.@LichasX@cloud"
+  path "/"
+    br "/main"
+    co "/main"
